@@ -78,8 +78,13 @@ export class Index9Component implements OnInit {
           value: '#ffffff'
         },
         shape: {
-          type: 'triangle',
+          type:  'circle',
         },
+
+        img: {
+          src: 'src/assests/images/bg-home.jpg'
+
+        }
       }
     };
   }
